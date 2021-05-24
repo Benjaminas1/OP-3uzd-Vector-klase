@@ -19,7 +19,7 @@ Testavime naudojamos 5 skirtingos funkcijos, kadangi gaunami vienodi rezultatai,
 
 ### 2. Efektyvumo/spartos analizė tarp std::vector ir Vector klasės.
 
-| Masyvo dydis \ konteinerio tipas | std::vector | vector class |
+| Masyvo dydis \ konteinerio tipas | std::vector | Vector klasė |
 | :------------------------------- | :---------- | :----------- |
 | 10000                            | 0ms         | 0ms          |
 | 100000                           | 2ms         | 1ms          |
