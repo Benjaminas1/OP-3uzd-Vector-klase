@@ -27,3 +27,14 @@ Testavime naudojamos 5 skirtingos funkcijos, kadangi gaunami vienodi rezultatai,
 | 10000000                         | 161ms       | 155ms        |
 | 100000000                        | 1596ms      | 1536ms       |
 
+### 3. Palyginkite kiek kartų 2 užduotyje (V2.0) įvyksta konteinerių (Vector ir std::vector) atminties perskirstymai užpildant 100000000 elementų. Perskirstymas įvyksta tada, kai yra patenkinama sąlyga: capacity() == size(), t.y. kai nelieka vietos capacity()`naujiems elementams.`
+
+    Naudojant std::vector: 27
+    Naudojant vector klase: 27
+
+Naudojant abu konteinerius atminties perskirstymų skaičius vienodas. Tai reiškia, kad šiuo aspektu jie abu veikia vienodai.
+
+### 4. Atlikite spartos analizę, t.y. naudojant duomenų failą su 100000 studentų įrašų, palyginkite kiek laiko užtrunka programos veikimas naudojant std::vector ir Vector realizacijas.
+
+| Masyvo dydis \ konteinerio tipas | std::vector | Vector klasė |
+| 100000                           | 2.26267s     | 2.16349s      |
