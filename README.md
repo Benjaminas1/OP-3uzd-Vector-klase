@@ -37,4 +37,5 @@ Naudojant abu konteinerius atminties perskirstymų skaičius vienodas. Tai reiš
 ### 4. Atlikite spartos analizę, t.y. naudojant duomenų failą su 100000 studentų įrašų, palyginkite kiek laiko užtrunka programos veikimas naudojant std::vector ir Vector realizacijas.
 
 | Masyvo dydis \ konteinerio tipas | std::vector | Vector klasė |
-| 100000                           | 2.26267s    | 2.16349s    |
+| :------------------------------- | :---------- | :----------- |
+| 100000                           | 2.26267s    | 2.16349s     |
